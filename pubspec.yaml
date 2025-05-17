@@ -1,0 +1,29 @@
+name: incubation
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  particles_flutter: ^1.0.1
+  table_calendar: ^3.0.9
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: "^0.14.3"
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo1.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/incubator-logo.png
